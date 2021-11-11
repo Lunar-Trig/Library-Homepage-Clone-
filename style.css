@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    margin:1.4em 1.8em;
+    width:90%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+/*Navbar*/
+
+.navbar{
+   display: flex;
+   background-color: #0068b3d7;
+   width: 100%;
+   height:57px;
+   position: relative;
+   bottom:8px;
+}
+
+/*L-Nav*/
+
+.l-nav{
+
+}
+
+.nav-ul{
+    max-width: 40%;
+    position: relative;
+    bottom: 2em;
+}
+    
+.ul-btn{
+    display: flex;
+    padding:0.3em;
+    margin:1em 1em;
+}
+
+.ul-btn:hover{
+    color: black;
+}
+
+/*R-Nav*/
+
+.r-nav{
+    position: relative;
+    top:4ex;
+    left:26em;
+}
+
+.r-nav button.link{
+    margin-left: 1em;
+    color:black;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+    background: none;
+    border:none;
+}
+
+.r-nav button.link:hover{
+    background-color: white;
+    bottom: 0.7em;
+}
+
