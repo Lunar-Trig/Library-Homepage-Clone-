@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    margin:1.4em 1.8em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.l-nav,.r-nav{
+    position: relative;
+    bottom:2ex;
+}
+
+/*Navbar*/
+
+.navbar{
+   border-top:50px solid #1a6ec7;
+   display: flex;
+   height:57px;
+   position: relative;
+   bottom:11px;
+}
+
+/*L-Nav*/
+
+#nav-logo{
+    position: relative;
+    top:3em;
+    left: 12em;
+}
+
+/*R-Nav*/
+
+.nav-ul{
+    position: relative;
+    top:2em;
+    left: 40em;
+}
+
+.ul-btn{
+    width:7em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 523;
+    display: flex;
+    justify-content: space-between;
+    padding:0.3em;
+    margin:1em 1em;
+}
+
+.ul-btn:hover{
+    color: steelblue;
+}
+
+/*Container*/
+
+.text{
+    background: url('../images/');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height:4in;
+    width:90%;
+    margin-top:6em;
+}
+
+.container{
+    position: relative;
+    top:9em;
+    left:24em;
+}
