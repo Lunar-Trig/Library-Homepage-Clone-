@@ -19,6 +19,7 @@ ul{
     list-style: none;
 }
 
+
 /*Navbar*/
 
 .navbar{
@@ -69,11 +70,17 @@ ul{
     max-width: 100%;
 }
 
+#sec-background{
+    min-width: 100%;
+}
+
+
 .sec-text{
-    position: relative;
-    bottom:17em;
-    left:2em;
     text-align: center;
+    width:59em;
+    position: relative;
+    bottom:12em;
+    left:32em;
 }
 
 .sec-btn{
@@ -215,16 +222,7 @@ ul{
 }
 
 @media screen and (max-width:700px){
-    .section .sec-text{
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        min-height:6em;
-        min-width: 3em;
-        margin:2ex;
-
-    }
-
+    
     #sec-background img{
         min-height: 7.7in;
     }

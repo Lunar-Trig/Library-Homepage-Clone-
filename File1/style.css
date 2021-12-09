@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    margin: 0%;
+    width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+h1{
+    color: snow;
+    font-size: 2.267em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.167em;
+}
+
+/*Navbar*/
+
+.navbar{
+    border-right: 7px solid transparent;
+    border-top:50px solid #1a6ec7;
+    display: flex;
+    flex-wrap: wrap;
+    height:57px;
+    position: relative;
+    bottom:11px;
+ }
+ 
+ .l-nav,.r-nav{
+     position: relative;
+     bottom:2ex;
+ }
+ 
+ /*L-Nav*/
+ 
+ #nav-logo{
+     position: relative;
+     top:2em;
+     left: 14em;
+ }
+ 
+ /*R-Nav*/
+ 
+ .nav-ul{
+     position: relative;
+     top:3ex;
+     left: 40em;
+ }
+ 
+ .ul-btn{
+     width:7em;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 523;
+     display: flex;
+     justify-content: space-between;
+     padding:0.3em;
+     margin:1em 1em;
+ }
+ 
+ .ul-btn:hover{
+     color: steelblue;
+     cursor:pointer;
+ }
+
+ /*Section*/
+
+ .text{
+    border: 1px solid rgba(135, 207, 235, 0.686);
+    border-radius: 1.037em;
+    background-color: rgba(135, 207, 235, 0.686);
+    width:87%;
+    padding: 3.3em;
+    position: relative;
+    top:6em;
+    left:7em;
+ }
+  
