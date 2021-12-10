@@ -19,7 +19,6 @@ ul{
     list-style: none;
 }
 
-
 /*Navbar*/
 
 .navbar{
@@ -58,6 +57,7 @@ ul{
 
 .ul-btn:hover{
    color:cornflowerblue;
+   cursor: pointer;
 }
 
 .ul-btn-green{
@@ -70,17 +70,34 @@ ul{
     max-width: 100%;
 }
 
-#sec-background{
-    min-width: 100%;
+.sec-text{
+    color: white;
+    position: relative;
+    bottom:17em;
+    left: 1em;
+    text-align: center;
 }
 
+.sec-text h1{
+    font-size: 3.567em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
 
-.sec-text{
-    text-align: center;
-    width:59em;
+.sec-text label{
+    font-size: 1.327em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-text #sec-icon{
+    font-size:19px;
     position: relative;
-    bottom:12em;
-    left:32em;
+    bottom:1px;
+}
+
+.sec-text p{
+    font-size: 1.336em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sec-btn{
@@ -88,6 +105,10 @@ ul{
     top:19px;
     background-color: #0068b3;
     padding: 3ex;
+}
+
+.sec-btn,label,#sec-icon:hover{
+  cursor:pointer;
 }
 
 .sec-btn:hover label{
@@ -140,15 +161,12 @@ ul{
      position: relative;
  }
 
-
 #icon-1,#icon-2,#icon-3,#icon-4,#icon-4,#icon-5,#icon-6,#icon-7{
     color: white;
     margin: 0.1em;
     padding:0.4em;
     border-radius: 1em;
 }
-
-
 
 /*Home-Cards*/
 
@@ -197,7 +215,7 @@ ul{
 /*Media Queries*/
 
 @media screen and (max-width:1105px){
-
+    
     .navbar{
         position: relative;
         right:9ex;
@@ -211,7 +229,7 @@ ul{
        visibility: visible;
        color: #0068b3;
        position: relative;
-       left:14em;
+       left:17em;
        bottom:0.3ex;
     }
  
@@ -222,12 +240,62 @@ ul{
 }
 
 @media screen and (max-width:700px){
-    
+
+    .container{
+        transition: ease-out 2ms;
+    }
+
+    #nav-ul-replace-img{
+        position: absolute;
+        top:1.8em;
+        left:3.1em;
+    }
+
+    .section{
+       width:100%;
+    }
+
+    .sec-text{
+        max-width: 19em;
+        display:flex;
+        justify-content: center;
+        position: relative;
+        bottom: 34em;
+        left:15em;
+    }
+
+    .sec-text h1{
+        position: relative;
+        left:1.1em;
+    }
+
+    .sec-text p{
+        min-width: 12em;
+        position: relative;
+        top:6.5em;
+        right:8.7em;
+    }
+
+    .sec-btn{
+        display: flex;
+        min-width:9em;
+        max-height: 2em;
+        position: relative;
+        right:25.3em;
+        top:14.6em;
+    }
+
+    .sec-btn #sec-icon{
+        margin-left: 0.7ex;
+        margin-top: 0.6ex;
+    }
+
     #sec-background img{
+        margin-top: 6em;
         min-height: 7.7in;
     }
 
     .home-cards,.services{
-        visibility: hidden;
+        margin-left: 56em;
     }
 }
