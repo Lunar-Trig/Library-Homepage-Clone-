@@ -1,2 +1,2 @@
 # Header-Project
-A clone for a Library Homepage.
+A responsive Homepage clone for a Library.
