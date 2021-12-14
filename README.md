@@ -1,2 +1,2 @@
 # Header-Project
-A responsive Homepage clone for a Library.
+An responsive HTML and CSS clone of the Prince George's County Memorial Library System website.
