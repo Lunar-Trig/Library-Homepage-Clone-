@@ -175,6 +175,7 @@ ul{
     margin-left: 12px;
     padding:0.4em;
     border-radius: 1em;
+    cursor: pointer;
 }
 
 
@@ -321,15 +322,6 @@ ul{
         position: absolute;
         top:1.8em;
         left:3.1em;
-    }
-
-    #nav-ul-replace-img:hover .nav-ul{
-        display: block;
-    }
-
-
-    #nav-ul-replace-img:hover #sec-background{
-        visibility: hidden;
     }
 
     .section{
