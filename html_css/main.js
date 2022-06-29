@@ -35,3 +35,8 @@ menuBtn.addEventListener('click', function(e){
     }
 
 });
+
+
+::hover{
+    
+}
