@@ -5,27 +5,62 @@
         <script src="https://kit.fontawesome.com/b68db26194.js" crossorigin="anonymous"></script>
     </head>
     <body class="container">
-        <!--Navbar-->
+        <!--Header-->
 
-        <header class="navbar">
-            <div class="l-nav">
-                 <div id="nav-logo">
-                     <img src="../images/PG.png" height="64px" alt="PG">
-                 </div>
+        <header class="header">
+            <div class="top-header">
+                    <div class="top-l-nav">
+                        <ul class="top-nav-links">
+                            <li>
+                                <a href="#">Su biblioteca</a>
+                            <li>
+                                <a href="#">My Account</a>
+                            </li>
+                            <li>
+                                <a href="#">Catalog</a>
+                            </li>
+                            <li>
+                                <a href="#">Libby/OverDrive</a>
+                            </li>
+                            <li>
+                                <a href="#">Events</a>
+                            </li>
+                            <li>
+                                <a href="#">Accessibility</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-r-nav">
+                        <i id="top-nav-icon" class="fa-solid fa-magnifying-glass"></i>
+                    </div>
             </div>
-
-            <div class="r-nav">
-                 <div class="nav-ul">
-                     <ul>
-                         <li><a class="ul-btn" href="#">Home</a></li>
-                         <li><a class="ul-btn" href="#">About Us</a></li>
-                         <li><a class="ul-btn" href="#">Services</a></li>
-                         <li><a class="ul-btn" href="#">Online Library</a></li>
-                         <li><a class="ul-btn-green" href="#">Donate</a></li>
-                     </ul>
-                 </div>
-
-                 <i style="font-size: 43px;" id="nav-ul-replace-img" class="fas fa-bars"></i>
+            <div class="bottom-header">
+                    <div class="bottom-l-nav">
+                        <img width="350" class="bottom-nav-logo" src="../images/PG.png" alt="PGCMLS Logo">
+                    </div>
+                    <div class="bottom-r-nav">
+                        <ul class="bottom-nav-links">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us<i style="margin-left: 0.4em;" class="fa-solid fa-chevron-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Services<i style="margin-left: 0.4em;" class="fa-solid fa-chevron-down"></i></a>
+                            </li>
+                            <li>
+                                <a href="#">Online Library<i style="margin-left: 0.4em;" class="fa-solid fa-chevron-down"></i></a>
+                            </li>
+                            <li>
+                                Donate<i style="margin-left: 0.4em;" class="fa-solid fa-chevron-down"></i>
+                            </li>
+                        </ul>
+                        <input type="checkbox" id="toggle">
+                        <label for="toggle" class="bottom-menu-toggle-btn">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                    </div>
             </div>
         </header>
 
@@ -33,13 +68,12 @@
 
         <section class="section">
             <div id="sec-background">
-                 <img src="../images/background.jpg" height="400" width="100%">
+                 <img style="background-position: center;" src="../images/background.png" height="430" width="100%">
             </div>
 
             <div class="sec-text">
-                 <h1>Proud Together</h1>
-                 <p>The Library is committed to serving as a partner
-                    for advancing our community.</p>
+                 <h1>Summer Prince George's</h1>
+                 <p>Enjoy the summer with reading and baseball!</p>
                  <a href="#" class="sec-btn">
                     <label style="color: white;">Learn More!</label>
                     <i style="color: white;" id="sec-icon" class="fas fa-arrow-right"></i>
@@ -62,41 +96,44 @@
             </div>
             <div class="service-icons" style="font-size: 30px;">
                 <i style="background-color: #FF6019;" id="icon-1" class="fas fa-paint-brush"></i>
-                <i onmouseover="serviceIcon2E()" style="background-color: #0068b3;" id="icon-2" class="fas fa-desktop"></i>
-                <i onmouseover="serviceIcon3E()" style="background-color: #3DB309;" id="icon-3" class="fas fa-globe-americas"></i>
-                <i onmouseover="serviceIcon4E()" style="background-color: #FFD019;" id="icon-4" class="fas fa-pencil-alt"></i>
+                <i style="background-color: #0068b3;" id="icon-2" class="fas fa-desktop"></i>
+                <i style="background-color: #3DB309;" id="icon-3" class="fas fa-globe-americas"></i>
+                <i style="background-color: #FFD019;" id="icon-4" class="fas fa-pencil-alt"></i>
                 <i onmouseover="serviceIcon5E()" style="background-color: #785ba7;" id="icon-5" class="fas fa-newspaper"></i>
                 <i onmouseover="serviceIcon6E()" style="background-color: #09B39F;" id="icon-6" class="fas fa-heart"></i>
                 <i onmouseover="serviceIcon7E()" style="background-color: #E6376E;" id="icon-7" class="fas fa-glasses"></i>
             </div>
+        </div>
+        <div class="service-description">
+            <small>The online library support suites highlight some of our best and most useful resources. Check out our full collection of <strong>Online Resources</strong> for more information.</small>
         </div>
          
                     <!--Home Card 1-->
         
         <div class="home-cards">
             <div class="home-card-1">
-                <img class="img-1" src="../images/nahm.png" width="262" height="216" alt="Customer Survey Check Image">
-                <h3>Customer Survey</h3>
+                <img class="img-1" src="../images/" alt="Summer Prince George's Image">
+                <h3>Summer Prince George's</h3>
             </div>
 
                     <!--Home Card 2-->
 
             <div class="home-card-2">
-                <img class="img-2" src="../images/masks.jpg" width="262" height="216" alt="Information About Covid-19 Image">
-                <h3>COVID-19 and Self-Test Information</h3>
+                <img class="img-2" src="../images/" alt="Indigenous MD Image">
+                <h3>Guide to Indigenous MD</h3>
             </div>
 
                     <!--Home Card 3-->
 
             <div class="home-card-3">
-                <img class="img-3" src="../images/builds.png" width="262" height="216" alt="3 People Holding Hands Image">
-                <h3>Community Resources and Rental Assistance</h3>
+                <img class="img-3" src="../images/"  alt="COVID-19 Information Image">
+                <h3>COVID-19 Information</h3>
             </div>
          
                     <!--Home Card 4-->
             
             <div class="home-card-4">
-                <img class="img-4" src="../images/laptop.jpg" width="262" height="216" alt="26o Chromebook">
+                <img class="img-4" src="../images/" alt="26o Chromebook">
                 <h3>Introducing Online 2Go Chromebooks </h3>
             </div>
         </div>

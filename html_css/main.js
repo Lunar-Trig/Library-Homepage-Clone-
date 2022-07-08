@@ -16,27 +16,8 @@ menuBtn.addEventListener('mouseover', function(){
 });
 
 menuBtn.addEventListener('click', function(e){
-    list.style.visibility = 'visible';
-    list.style.display = 'block';
-    list.style.position = 'relative';
-    list.style.fontSize = '1.2em';
-    list.style.top = '2.6em';
-    list.style.right = '12em';
-    list.style.marginBottom = '2em';
-    menuBtn.style.position = 'relative';
-    menuBtn.style.bottom = '3.63em';
-    menuBtn.className = 'fa-solid fa-bars';
+    menuBtn.classList.toggle("active");
+    list.classList.toggle("active");
     e.preventDefault();
-
-    if(menuBtn.className = 'fa-solid fa-bars'){
-        menuBtn.addEventListener('click', function(){
-           window.location.reload();
-        })
-    }
-
 });
 
-
-::hover{
-    
-}
