@@ -119,10 +119,6 @@ text-indent:0px;
     display: none;
 }
 
-#toggle{
-    display: none;
-}
-
 /*Section*/
 
 .section{
@@ -222,6 +218,7 @@ text-indent:0px;
     display: flex;
     position: relative;
     bottom: 0.5ex;
+    left:1em;
     color: #0068b3;
     font-size: 1.956em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -244,6 +241,21 @@ text-indent:0px;
     cursor: pointer;
 }
 
+#icon-1:hover{
+    color:#FF6019;
+}#icon-2:hover{
+    color:#0068b3;
+}#icon-3:hover{
+    color:#3DB309;
+}#icon-4:hover{
+    color:#FFD019;
+}#icon-5:hover{
+    color:#785ba7;;
+}#icon-6:hover{
+    color:#09B39F;
+}#icon-7:hover{
+    color:#E6376E;
+}
  /*Service-Description*/
 
  .service-description{
@@ -384,12 +396,25 @@ text-indent:0px;
     }
 
     .bottom-nav-links{
-        position: relative;
-        left:2.8em;
+        position: absolute;
+        left:2em;
+        top:11.5em;
         transition: 0.
         5s;
-        margin-bottom: 7em;
+        margin-bottom: 1em;
         display: none;
+    }
+
+    .bottom-nav-links li{
+        line-height: 35.5px;
+    }
+
+    .toggle{
+        display:block;
+    }
+
+    .spaceBelow{
+        padding-bottom: 12em;
     }
 
     .bottom-menu-toggle-btn{
@@ -400,6 +425,7 @@ text-indent:0px;
         margin-right: 1em !important;
         width:400;
     }
+
 }
 
 @media all and (max-width: 732px) {
@@ -433,6 +459,11 @@ text-indent:0px;
     .bottom-menu-toggle-btn{
         position: relative;
         left:9.8em;
+    }
+
+    .bottom-nav-links{
+        position: absolute;
+        top:15.5em;
     }
 
 }
